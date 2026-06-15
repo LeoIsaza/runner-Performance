@@ -1,4 +1,5 @@
-name: Performance - ${{ github.event.inputs.simulation_class }}
+name: Performance - Gatling Simulation
+run-name: Performance - ${{ github.event.inputs.simulation_class }}
 
 on:
   workflow_dispatch:
